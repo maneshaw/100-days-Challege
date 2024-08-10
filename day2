@@ -1,0 +1,12 @@
+import java.util.Scanner;
+class Rent
+{
+    public static void main(String args[])
+    {
+       Scanner sc=new Scanner(System.in);
+       System.out.println("Rent is:");
+       int Rent=sc.nextInt();
+       int Rent1=2*Rent;
+       System.out.println(Rent1);
+    }
+}
