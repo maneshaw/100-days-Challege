@@ -1,0 +1,15 @@
+import java.util.Scanner;
+class Add
+{
+    public static void main(String args[])
+    {
+        Scanner sc=new Scanner(System.in);
+        System.out.println("A=");
+        int A=sc.nextInt();
+        Scanner sc1=new Scanner(System.in);
+        System.out.println("B=");
+        int B=sc1.nextInt();
+        int C=A+B;
+        System.out.println(C+"1");
+    }
+}
