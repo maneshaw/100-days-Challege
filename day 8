@@ -1,0 +1,10 @@
+import java.util.Scanner;
+class HelloWorld {
+    public static void main(String[] args) {
+    Scanner sc=new Scanner(System.in);
+    int N=sc.nextInt();
+    int amt=N*2000;
+    int famt=amt/500;
+    System.out.println(famt);
+    }
+}
